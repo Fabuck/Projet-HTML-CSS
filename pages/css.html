@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/others.css" />
+    <title>Qu'est ce que le HTML</title>
+  </head>
+  <body>
+    <header class="html-css">
+      <div class="logo">
+        <a href="../pages/index.html"
+          ><img src="../assets/img/logo.png" alt="logo homepage"
+        /></a>
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="./html.html">HTML</a></li>
+          <li><a href="./css.html">CSS</a></li>
+          <li><a href="./js.html">JAVASCRIPT</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="content-table">
+        <article>
+          <h2>Tables des matières</h2>
+          <p><a href="#explication">Qu'est ce que le CSS</a></p>
+          <p><a href="#comprendre">Comprendre le CSS </a></p>
+          <p><a href="#bases">Méthodes d'intégration</a></p>
+        </article>
+      </section>
+
+      <section class="main-section">
+        <article>
+          <h2>
+            Le Cascading Style Sheets (CSS) : Ce que c'est et comment ça
+            fonctionne
+          </h2>
+          <div>
+            <img class="main-image" src="../assets/img/explicationcss.png" alt="" />
+          </div>
+        </article>
+
+        <article class="article-explication" id="explication">
+          <h3>Qu'est-ce que le CSS ?</h3>
+          <p>
+            Le Cascading Style Sheets (CSS) est un langage de feuille de style
+            utilisé pour décrire la présentation visuelle des pages web. Alors
+            que HTML structure le contenu, CSS permet de contrôler l'apparence
+            de ce contenu, notamment les couleurs, les polices, les marges, les
+            positions, et bien plus. CSS sépare la présentation du contenu,
+            facilitant ainsi la gestion et l’optimisation du design des sites
+            web.
+          </p>
+        </article>
+
+        <article class="article-explication" id="comprendre">
+          <h3>Comprendre le CSS</h3>
+          <p>
+            CSS fonctionne grâce à des règles qui ciblent des éléments HTML
+            spécifiques afin de leur appliquer des styles. Une règle CSS est
+            composée de deux parties : un sélecteur et une déclaration. Le
+            sélecteur identifie l'élément HTML auquel s'applique le style (par
+            exemple, p pour un paragraphe), tandis que la déclaration définit
+            les propriétés à modifier, telles que la couleur, la taille de
+            police ou les marges.
+          </p>
+        </article>
+
+        <article class="article-explication" id="bases">
+          <h3>Les trois méthodes d'intégration de CSS</h3>
+          <p>
+            <ul><li>CSS en ligne : Le style est directement ajouté aux éléments HTML à l’aide de l'attribut style. Cela peut être pratique pour des modifications rapides mais n'est pas recommandé pour des projets plus complexes.</li>
+            <li>CSS interne (ou intégré) : Les règles CSS sont incluses dans la section head du fichier HTML, dans une balise style. Cela permet de garder le style centralisé dans un même document, mais cela devient difficile à gérer pour les grands sites</li>
+          <li>SS externe : La méthode la plus courante et recommandée consiste à lier un fichier CSS externe à une page HTML. Cela permet de séparer complètement le style du contenu et de réutiliser une même feuille de style pour plusieurs pages.</li></ul>
+          </p>
+        </article>
+      </section>
+
+    <a href="#" class="back-to-top">&#8679;</a>
+    </main>
+    <footer class="footer" id="footer">
+      <p>&copy; 2024 COSTABELLO FABIEN. All rights reserved.</p>
+      <p>
+        <a href="https://www.facebook.com/" target="#">Facebook</a> |
+        <a href="https://www.twitter.com/" target="#">Twitter</a> |
+        <a href="https://www.linkedin.com/" target="#">LinkedIn</a>
+      </p>
+      <p>
+        <a href="/privacy-policy.html">Privacy Policy</a> |
+        <a href="/terms-of-service.html">Terms of Service</a>
+      </p>
+    </footer>
+  </body>
+</html>
